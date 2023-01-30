@@ -1,0 +1,13 @@
+.title {
+  font-size: 28px;
+  text-align: center;
+}
+
+.description {
+  margin: 10px 0;
+
+  & span {
+    color: brown;
+    text-decoration-line: line-through;
+  }
+}

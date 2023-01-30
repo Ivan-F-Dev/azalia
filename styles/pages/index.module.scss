@@ -1,0 +1,24 @@
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.git {
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 3px solid cornflowerblue;
+  transition: 0.2s;
+  color: #262626;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  &:active {
+    opacity: 70%;
+  }
+}
